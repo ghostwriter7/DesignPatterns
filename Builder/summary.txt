@@ -1,0 +1,7 @@
+# Summary
+
+1. A builder is a separate component for building an object
+2. Either initialize a builder or return it via a static function
+3. To make it fluid, return self (this)
+4. Different facets of an object can be built with different builders tied
+together via a case class.
